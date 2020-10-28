@@ -54,17 +54,27 @@ To clear this warning, run:
 `watchman watch-del /Users/kazuhirotobita ; watchman watch-project /Users/kazuhirotobita`
 
  PASS  ./LCA.test.js
-  ✓ test LCA (13 ms)
+  ✓ test LCA (17 ms)
 
   console.log
     The lca of 5 and 9 is 7
 
       at Object.<anonymous> (LCA.test.js:85:13)
 
+  console.log
+    The lca of 17 and 25 is 25
+
+      at Object.<anonymous> (LCA.test.js:90:13)
+
+  console.log
+    The lca of 13 and 22 is 15
+
+      at Object.<anonymous> (LCA.test.js:95:13)
+
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        2.026 s
+Time:        1.903 s
 Ran all test suites.
 
 

@@ -85,15 +85,14 @@ test('test LCA', () => {
     console.log("The lca of " + value1 + " and " +  value2 + " is " + answer);
     expect(answer).toBe(7);
     
-    // value1 = 17, value2 = 25;
-    // answer = BST.lca(root, value1, value2);
-    // console.log("The lca of " + value1 + " and " +  value2 + " is " + answer);
+    value1 = 17, value2 = 25;
+    answer = BST.lca(root, value1, value2);
+    console.log("The lca of " + value1 + " and " +  value2 + " is " + answer);
+    expect(answer).toBe(25);
     
-    // value1 = 13, value2 = 22;
-    // answer = BST.lca(root, value1, value2);
-    // console.log("The lca of " + value1 + " and " +  value2 + " is " + answer);
+    value1 = 13, value2 = 22;
+    answer = BST.lca(root, value1, value2);
+    console.log("The lca of " + value1 + " and " +  value2 + " is " + answer);
+    expect(answer).toBe(15);
     
-    
-    
-
 })
